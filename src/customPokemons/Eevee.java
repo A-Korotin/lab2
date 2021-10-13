@@ -3,7 +3,7 @@ import ru.ifmo.se.pokemon.*;
 import customMoves.*;
 import java.lang.Math;
 
-public class Eevee extends Pokemon
+public class Eevee extends Leafeon
 {
   public Eevee(String name, int level)
   {

@@ -3,7 +3,7 @@ import ru.ifmo.se.pokemon.*;
 import customMoves.*;
 import java.lang.Math;
 
-public class Lairon extends Pokemon
+public class Lairon extends Aron
 {
   public Lairon(String name, int level)
   {
