@@ -1,0 +1,5 @@
+Compile:
+javac -d {dest. path}  -cp ":{archivesPath}/*" {filePath}
+
+Run:
+java -cp :{arcivesPath}/*:. {filePath}
