@@ -5,8 +5,7 @@ import java.lang.Math;
 
 public class Aggron extends Lairon
 {
-  public Aggron(String name, int level)
-  {
+  public Aggron(String name, int level){
     super(name, level);
     this.setMove(new DoubleTeam(), new Confide(),
                  new Tackle(), new HornAttack());
