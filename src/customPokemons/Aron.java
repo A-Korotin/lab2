@@ -5,8 +5,7 @@ import java.lang.Math;
 
 public class Aron extends Pokemon
 {
-  public Aron(String name, int level)
-  {
+  public Aron(String name, int level){
     super(name, level);
     this.setMove(new DoubleTeam(), new Confide());
     this.setType(Type.STEEL, Type.ROCK);
