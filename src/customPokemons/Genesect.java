@@ -5,8 +5,7 @@ import java.lang.Math;
 
 public class Genesect extends Pokemon
 {
-  public Genesect(String name, int level)
-  {
+  public Genesect(String name, int level){
     super(name, level);
     this.setMove(new ShadowBall(), new Blizzard(),
                  new DoubleTeam(), new Leer());
