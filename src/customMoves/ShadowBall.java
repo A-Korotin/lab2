@@ -4,17 +4,18 @@ import ru.ifmo.se.pokemon.*;
 
 public class ShadowBall extends SpecialMove
 {
-  public ShadowBall() { super(Type.GHOST, 80, 100); }
+  public ShadowBall(){
+    super(Type.GHOST, 80, 100);
+  }
 
   @Override
-  protected void applyOppEffects(Pokemon p)
-  {
+  protected void applyOppEffects(Pokemon p){
     if (Math.random() <= 0.2)
       p.setMod(Stat.SPECIAL_DEFENSE, -1);
   }
+
   @Override
-  protected String describe()
-  {
+  protected String describe(){
     return "Uses Shadow Ball";
   }
 }
