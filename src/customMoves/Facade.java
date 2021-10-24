@@ -4,12 +4,12 @@ import java.lang.Math;
 
 public class Facade extends PhysicalMove
 {
-  public Facade()
-  { super(Type.NORMAL, 70, 100); }
+  public Facade(){
+    super(Type.NORMAL, 70, 100);
+  }
 
   @Override
-  protected void applyOppDamage(Pokemon p, double damage)
-  {
+  protected void applyOppDamage(Pokemon p, double damage){
     Status currentEffect = p.getCondition();
     if (currentEffect == Status.BURN   ||
         currentEffect == Status.POISON ||
@@ -19,8 +19,7 @@ public class Facade extends PhysicalMove
       p.setMod(Stat.HP, (int) damage);
   }
   @Override
-  protected String describe()
-  {
+  protected String describe(){
     return "Uses Facade";
   }
 }
