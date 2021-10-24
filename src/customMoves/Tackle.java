@@ -4,12 +4,12 @@ import java.lang.Math;
 
 public class Tackle extends PhysicalMove
 {
-  public Tackle()
-  { super(Type.NORMAL, 40, 100); }
+  public Tackle(){
+    super(Type.NORMAL, 40, 100);
+  }
 
   @Override
-  protected String describe()
-  {
+  protected String describe(){
     return "Uses Tackle";
   }
 }
