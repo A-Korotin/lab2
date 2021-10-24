@@ -5,8 +5,7 @@ import java.lang.Math;
 
 public class Leafeon extends Pokemon
 {
-  public Leafeon(String name, int level)
-  {
+  public Leafeon(String name, int level){
     super(name, level);
     this.setMove(new Facade(), new DoubleTeam(),
                  new Swagger(), new DoubleEdge());
