@@ -5,8 +5,7 @@ import java.lang.Math;
 
 public class Lairon extends Aron
 {
-  public Lairon(String name, int level)
-  {
+  public Lairon(String name, int level){
     super(name, level);
     this.setMove(new DoubleTeam(), new Confide(),
                  new Tackle());
