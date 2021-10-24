@@ -5,8 +5,7 @@ import java.lang.Math;
 
 public class Eevee extends Leafeon
 {
-  public Eevee(String name, int level)
-  {
+  public Eevee(String name, int level){
     super(name, level);
     this.setMove(new Facade(), new DoubleTeam(),
                  new Swagger());
